@@ -1,2 +1,0 @@
-# SamZyte
-Web Dev portfolio
