@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main style={{ padding: 24, maxWidth: 900, margin: "0 auto" }}>
+    <main>
       <section style={{ marginTop: 40 }}>
         <h1 style={{ fontSize: 42, margin: 0 }}>Samzei</h1>
         <p style={{ fontSize: 18, opacity: 0.85, marginTop: 10 }}>
