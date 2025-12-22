@@ -55,6 +55,21 @@ export default function Home() {
             </div>
         </section>
 
+        <section style={{ marginTop: 50, marginBottom: 60 }}>
+  <h2 style={{ marginBottom: 12 }}>Contact</h2>
+  <p style={{ opacity: 0.9 }}>
+    Want to collaborate or discuss opportunities? Reach me here:
+  </p>
+
+  <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 12 }}>
+    <a href="mailto:your-email@example.com" style={btnStyle}>Email Me</a>
+    <a href="https://github.com/Samzei" target="_blank" rel="noreferrer" style={btnStyleOutline}>
+      GitHub Profile
+    </a>
+  </div>
+</section>
+
+
     </main>
   );
 }
