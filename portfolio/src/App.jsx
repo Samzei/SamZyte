@@ -7,10 +7,6 @@ import Layout from "./components/Layout";
 export default function App() {
   return (
     <HashRouter>
-      <nav style={{ padding: 16, display: "flex", gap: 12 }}>
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-      </nav>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />

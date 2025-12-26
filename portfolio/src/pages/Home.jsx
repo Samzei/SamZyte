@@ -39,7 +39,7 @@ export default function Home() {
                 working on projects involving React, APIs, and data-driven features.
             </p>
 
-            <div style={{ display: "grid", gap: 12, gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", marginTop: 16 }}>
+            <div style={{ display: "grid", gap: 12,gridTemplateColumns: "repeat(auto-fit, minmax(360px, 1fr))", marginTop: 16 }}>
                 <div style={cardStyle}>
                 <div style={cardTitle}>Focus</div>
                 <div style={cardValue}>Front-end + APIs</div>
