@@ -1,19 +1,22 @@
+import samzyteImg from "../assets/projects/SamzyteImg.png";
+import trilloImg from "../assets/projects/TrilloImg.png";
+import letmeImg from "../assets/projects/PortfolioImg.png";
+
 export const projectMeta = {
-  "contract-redliner": {
-    description: "Web app for reviewing contracts with clause insights and a clean dashboard UI.",
-    demo: "", // add later if you deploy it
-  },
   "SamZyte": {
     description: "My personal portfolio website showcasing my projects and skills.",
     demo: "https://samzei.github.io/SamZyte/",
+    image: samzyteImg,
   },
   "Trillo": {
     description: "A responsive UI project focused on layout, styling, and components.",
     demo: "",
+    image: trilloImg,
   },
-  "My-Portfolio": {
-    description: "A personal portfolio project to showcase my work, skills, and links.",
+  "Let-Me-Portfolio": {
+    description: "A demo portfolio project to showcase my work, skills, and links.",
     demo: "",
+    image: letmeImg,
   },
 
 };

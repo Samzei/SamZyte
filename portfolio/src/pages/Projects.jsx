@@ -86,11 +86,30 @@ const featured = useMemo(() => {
               gap: 10,
               minHeight: 180,
             }}>
-              <h3 style={{ margin: 0, display: "flex", alignItems: "center", gap: 10 }}>
-                <a href={repo.html_url} target="_blank" rel="noreferrer" style={{ color: "white", textDecoration: "none"}}>
+              <h3 style={{ margin: 0}}>
+
+                {projectMeta[repo.name]?.image && (
+                  <img
+                    src={projectMeta[repo.name].image}
+                    alt={`${repo.name} preview`}
+                    style={{
+                      width: "100%",
+                      height: 160,
+                      objectFit: "cover",
+                      borderRadius: 12,
+                      border: "1px solid rgba(255,255,255,0.12)",
+                    }}
+                  />
+                )}
+
+                <a
+                  href={repo.html_url}
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "white", textDecoration: "none" }}
+                >
                   {repo.name}
                 </a>
-
                 {isFeatured && <span style={badgeStyle}>Featured</span>}
               </h3>
 
@@ -130,6 +149,7 @@ const badgeStyle = {
   border: "1px solid rgba(255,255,255,0.2)",
   fontSize: 12,
   opacity: 0.85,
+  verticalAlign: "middle",
 };
 
 const btnSmall = {
