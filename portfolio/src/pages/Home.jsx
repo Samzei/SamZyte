@@ -19,7 +19,7 @@ export default function Home() {
           <a href="#/projects" style={btnStyleOutline}>
             View Projects
           </a>
-          <a href="./cv.pdf" target="_blank" rel="noreferrer" style={btnStyleOutline}>
+          <a href="./frontenddeveloperCV.pdf" target="_blank" rel="noreferrer" style={btnStyleOutline}>
            View CV
           </a>
         </div>
