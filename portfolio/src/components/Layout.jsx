@@ -10,6 +10,7 @@ export default function Layout({ children }) {
                 <nav style={{ display: "flex", gap: 14 }}>
                     <Link to="/" style={navLink}>Home</Link>
                     <Link to="/projects" style={navLink}>Projects</Link>
+                    <Link to="/#contact" style={navLink}>Contact</Link>
                 </nav>
                 </div>
             </header>

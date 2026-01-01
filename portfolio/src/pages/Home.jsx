@@ -4,7 +4,7 @@ export default function Home() {
       <section style={{ marginTop: 40 }}>
         <h1 style={{ fontSize: 42, margin: 0 }}>Samzei</h1>
         <p style={{ fontSize: 18, opacity: 0.85, marginTop: 10 }}>
-          Computer Science student building web apps with React and Node.js.
+         Final-year Computer Science student building clean, responsive web apps with React and APIs.
         </p>
 
         <div style={{ display: "flex", gap: 12, marginTop: 18, flexWrap: "wrap" }}>
@@ -18,6 +18,9 @@ export default function Home() {
           </a>
           <a href="#/projects" style={btnStyleOutline}>
             View Projects
+          </a>
+          <a href="./cv.pdf" target="_blank" rel="noreferrer" style={btnStyleOutline}>
+           View CV
           </a>
         </div>
       </section>
@@ -36,7 +39,8 @@ export default function Home() {
             <p style={{ lineHeight: 1.6, opacity: 0.9 }}>
                 I'm a final-year Computer Science student based in London. I enjoy building
                 clean, user-friendly web apps and improving them with feedback. I'm currently
-                working on projects involving React, APIs, and data-driven features.
+                working on projects involving React, APIs, and data-driven features. 
+                Currently focused on React projects, GitHub workflows, and building a stronger developer portfolio.
             </p>
 
             <div style={{ display: "grid", gap: 12,gridTemplateColumns: "repeat(auto-fit, minmax(360px, 1fr))", marginTop: 16 }}>
@@ -55,19 +59,19 @@ export default function Home() {
             </div>
         </section>
 
-        <section style={{ marginTop: 50, marginBottom: 60 }}>
-  <h2 style={{ marginBottom: 12 }}>Contact</h2>
-  <p style={{ opacity: 0.9 }}>
-    Want to collaborate or discuss opportunities? Reach me here:
-  </p>
+        <section id="contact" style={{ marginTop: 50, marginBottom: 60 }}>
+          <h2 style={{ marginBottom: 12 }}>Contact</h2>
+          <p style={{ opacity: 0.9 }}>
+            Want to collaborate or discuss opportunities? Reach me here:
+          </p>
 
-  <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 12 }}>
-    <a href="mailto:your-email@example.com" style={btnStyle}>Email Me</a>
-    <a href="https://github.com/Samzei" target="_blank" rel="noreferrer" style={btnStyleOutline}>
-      GitHub Profile
-    </a>
-  </div>
-</section>
+          <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 12 }}>
+            <a href="mailto:your-email@example.com" style={btnStyle}>Email Me</a>
+            <a href="https://github.com/Samzei" target="_blank" rel="noreferrer" style={btnStyleOutline}>
+              GitHub Profile
+            </a>
+          </div>
+        </section>
 
 
     </main>
